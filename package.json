@@ -1,0 +1,16 @@
+{
+  "name": "enata-tarot-api-v2",
+  "version": "1.0.0",
+  "description": "\uc5d0\ub098\ud0c0 \ud0c0\ub85c GPT \ub9ac\ub529 + Google Sheets \uc790\ub3d9 \uc800\uc7a5 \ubc31\uc5d4\ub4dc",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "googleapis": "^132.0.0",
+    "openai": "^4.21.1"
+  }
+}
