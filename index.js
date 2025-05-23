@@ -20,7 +20,7 @@ const auth = new google.auth.GoogleAuth({
 });const sheets = google.sheets({ version: 'v4', auth });
 
 const spreadsheetId = '1AiV6Ns7AjvzJ0-XAzXNnT0j4U9a_dCnmTY1dOpdHYNw';
-const sheetRange = 'Sheet1!A1';
+const sheetRange = '시트1!A1';
 
 app.post('/generate', async (req, res) => {
   const { question, card } = req.body;
